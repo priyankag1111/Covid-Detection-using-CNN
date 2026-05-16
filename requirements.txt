@@ -1,8 +1,14 @@
 streamlit
-tensorflow==2.20.0
+tensorflow
+keras
 numpy
 opencv-python
 pandas
 scikit-learn
 matplotlib
 seaborn
+Pillow
+tqdm
+scipy
+keras-tuner
+kaggle
