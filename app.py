@@ -6,7 +6,7 @@ import numpy as np
 import cv2
 
 # Load Model
-model = tf.keras.models.load_model('covid_xray_model.h5')
+model = tf.keras.models.load_model('covid_xray_model.tflite')
 
 classes = ['COVID', 'Normal', 'Viral Pneumonia']
 
