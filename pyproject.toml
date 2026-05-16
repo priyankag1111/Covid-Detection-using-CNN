@@ -1,0 +1,26 @@
+[project]
+name = "covid-xray-detection"
+version = "1.0.0"
+description = "COVID-19 Detection from Chest X-rays using CNN"
+requires-python = ">=3.9,<3.13"
+readme = "README.md"
+license = {text = "MIT"}
+
+dependencies = [
+    "streamlit==1.28.1",
+    "tensorflow==2.16.2",
+    "keras==2.16.0",
+    "opencv-python==4.8.0.76",
+    "Pillow==10.0.0",
+    "numpy==1.24.3",
+    "pandas==2.0.3",
+    "scikit-learn==1.3.0",
+    "matplotlib==3.7.2",
+    "seaborn==0.12.2",
+    "tqdm==4.66.1",
+    "scipy==1.11.2",
+]
+
+[build-system]
+requires = ["setuptools>=68.0", "wheel"]
+build-backend = "setuptools.build_meta"
