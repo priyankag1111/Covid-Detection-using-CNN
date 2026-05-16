@@ -12,3 +12,4 @@ tqdm
 scipy
 keras-tuner
 kaggle
+cv2
